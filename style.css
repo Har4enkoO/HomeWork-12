@@ -1,0 +1,43 @@
+body {
+  background: url('img/2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.characters, .planets {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.form {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.choice,
+.ok {
+  font-size: 20px;
+  background-color: gray;
+  color: darkblue;
+  border: 1px solid darkgrey;
+}
+.hero {
+  font-size: 20px;
+  color: antiquewhite;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.planet {
+  font-size: 20px;
+  color: antiquewhite;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.button {
+  padding: 30px 0;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="button">
+      <button class="ok" id="getPlanets">Показати всі планети</button>
+      <button class="ok" id="getNextPlanets">Наступні 10 планет</button>
+    </div>
+    <div class="planets"></div>
+    <div>
+      <form action="action" class="form">
+        <select name="film" id="films" class="choice">
+          <option value="none" hidden="">Виберіть Епізод</option>
+          <option value="1">Нова Надія</option>
+          <option value="2">Імперія Завдає Удару у Відповідь</option>
+          <option value="3">Повернення Джедая</option>
+          <option value="4">Прихована Загроза</option>
+          <option value="5">Атака Клонів</option>
+          <option value="6">Помста Ситхів</option>
+          <option value="7">Пробудження Сили</option>
+        </select>
+        <button type="button" id="getFilm" class="ok">
+          OK
+        </button>
+      </form>
+    </div>
+
+    <div class="characters"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/planets.js"></script>
+    <script src="js/characters.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

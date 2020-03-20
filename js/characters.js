@@ -1,0 +1,20 @@
+const IMG = {
+  'Luke Skywalker': 'Luke Skywalker',
+  'C-3PO': 'C-3PO',
+  'R2-D2': 'R2-D2',
+  'Darth Vader': 'Darth Vader',
+  'Leia Organa': 'Leia Organa',
+  'Obi-Wan Kenobi': 'Obi-Wan Kenobi',
+  'Anakin Skywalker': 'Anakin Skywalker',
+  'Wilhuff Tarkin': 'Wilhuff Tarkin',
+  Chewbacca: 'Chewbacca',
+  'Han Solo': 'Han Solo',
+  Greedo: 'Greedo',
+  Yoda: 'Yoda',
+  Palpatine: 'Palpatine',
+  'Boba Fett': 'Boba Fett',
+  'Qui-Gon Jinn': 'Qui-Gon Jinn',
+  'Jar Jar Binks': 'Jar Jar Binks',
+  'Darth Maul': 'Darth Maul',
+  'Ki-Adi-Mundi': 'Ki-Adi-Mundi'
+};
