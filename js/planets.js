@@ -4,7 +4,7 @@ let allPlanets = document.querySelector('.planets');
 button.addEventListener('click', getPlanets);
 function getPlanets() {
   async function planets() {
-    return await axios.get('https://swapi.co/api/planets/');
+    return await axios.get('https://swapi.dev/api/planets/');
   }
   planets().then(a =>
     a.data.results.forEach(element => {
@@ -28,7 +28,7 @@ function getNextPlanets() {
     });
   }
   async function planets() {
-    return await axios.get(`https://swapi.co/api/planets/?page=${page}`);
+    return await axios.get(`https://swapi.dev/api/planets/?page=${page}`);
   }
   planets().then(a =>
     a.data.results.forEach(element => {
