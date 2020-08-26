@@ -5,7 +5,7 @@ getNameFilm.addEventListener('click', function() {
   let filmPart = document.getElementById('films').value;
   if (filmPart != 'none') {
     async function getAllCharacters() {
-      return await axios.get(`https://swapi.co/api/films/${filmPart}/`);
+      return await axios.get(`https://swapi.dev/api/films/${filmPart}/`);
     }
     getAllCharacters().then(characters =>
       characters.data.characters.forEach(character => {
